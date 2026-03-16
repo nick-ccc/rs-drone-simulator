@@ -1,0 +1,5 @@
+[package]
+name = "rsds"
+version = "0.1.0"
+
+[dependencies]
