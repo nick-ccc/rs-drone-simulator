@@ -1,5 +1,5 @@
 {
-  description = "A flake for rust development";
+  description = "A flake for drone server development";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -21,6 +21,7 @@
         cargo-watch
         cargo-edit
         cargo-tarpaulin
+        cargo-audit
 
         glib
         pkg-config

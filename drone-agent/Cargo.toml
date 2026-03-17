@@ -1,0 +1,10 @@
+[package]
+name = "drone-agent"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+drone-core = { path = "../crates/drone-core" }
+drone-network = { path = "../crates/drone-network" }
+swarm = { path = "../crates/swarm" }
+sensor = { path = "../crates/sensor" }
